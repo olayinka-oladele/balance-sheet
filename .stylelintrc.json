@@ -4,9 +4,9 @@
   "rules": {
     "csstree/validator": {
       "properties": {
-        "width": "<min()>|<max()>",
-        "size": "<min()>|<max()>",
-        "font-size": "<min()>|<max()>"
+        "width": "|<min()>|<max()>",
+        "size": "|<min()>|<max()>",
+        "font-size": "|<min()>|<max()>"
       }
     }
   },

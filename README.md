@@ -1,6 +1,7 @@
-# Project Name
+# A BALANCE SHEET WEBPAGE
 
-> One paragraph statement about the project.
+> A balance sheet built using pseudo selector to change the style of an element
+> when you over it with mouse, and triger the webpage.
 
 ![screenshot](./app_screenshot.png)
 
@@ -8,20 +9,48 @@ Additional description of the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML element,
+  `section`, `span`, `div`, `caption`
+  `th`, `td`, `tr` etc.
+
+- CSS Properties,
+
+  `h1 .flex`
+  `display`: `flex`;
+  `flex-direction`: `column-reverse`;
+  `gap`,
+
+  `section`, `max-width`: `40rem`;
+  `margin`: 0 auto;
+  `border`
+
+  `h1 .flex span:last-of-type` `font-size`: `1.2em`,
+
+  `#years` `display`: `flex`;
+  `justify-content`: `flex-end`;
+  `position`: `sticky`;
+  `z-index`: `999`;
+  `top`: `0;`
+  `background`: `#0a0a23`;
+  `color`: `#fff`;
+  `padding`: `0.5rem` `calc(1.25rem + 2px)` `0.5rem 0`;
+  `margin`: `0 -2px;`
+
+- Linters
+  - [Prettier](https://prettier.io/),
+  - [Stylelint](https://stylelint.io/).
+- GitHub Action
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://oladelele-balance-sheet.netlify.app/)
 
 ### Development (Running locally)
 
 - Clone the project
 
 ```bash
-git clone https://github.com/user/html-css-template.git
+git clone git@github.com:olayinka-oladele/balance-sheet.git
 
 ```
 
@@ -65,14 +94,13 @@ yarn hint
 
 - [CSS Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/css.html)
 - [HTML Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/index.html)
-- [JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)
 - [Git Style Guide](https://udacity.github.io/git-styleguide/)
 
 ## 👤 Author
 
-- Github: [@author](https://github.com/author)
-- Twitter: [@author](https://twitter.com/author)
-- Linkedin: [@author](https://www.linkedin.com/in/author/)
+- Github: [@olayinka-oladele](https://github.com/olayinka-oladele)
+- Freecodecamp: [@olayinka-oladele](https://freecodecamp.com/author)
+- Linkedin: [@olayinka-oladele](https://www.linkedin.com/in/author/)
 
 ## 🤝 Contributing
 
@@ -86,9 +114,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+- [freecodecamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-more-about-css-pseudo-selectors-by-building-a-balance-sheet/step-66)
 
 ## 📝 License
 
